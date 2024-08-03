@@ -1,0 +1,51 @@
+body
+{
+    background-color:black;
+    color: white;
+
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(3,100px);
+    gap: 10px;
+    justify-content: center;
+   
+}
+.card{
+    background-color: white;
+    color: black;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    font-size: 1.7rem;
+ 
+}
+.result-display
+{
+    font-size: 40px;
+}
+
+.count{
+    margin: 10px 2px;
+  
+}
+
+.startbtn{
+    margin: 2px 2px;
+
+}
+.resetbutton{
+   margin: 10px 2px;
+}

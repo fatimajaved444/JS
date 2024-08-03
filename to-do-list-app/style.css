@@ -1,0 +1,40 @@
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    padding: 10px 50px;
+    padding-bottom: 180px ;
+    background-color: rgb(145, 26, 106);
+
+  }
+
+.task-item
+{
+    margin: 5px 0px;
+}
+
+.edit-btn, .save-btn, .del-btn
+{
+    background-color: rgb(53, 43, 43);
+    color:  rgb(168, 164, 164);
+    border-radius: 4px;
+    margin-left: 5px;
+    border: none;
+  
+}
+
+.del-btn
+{
+    background-color:rgb(53, 43, 43);
+    color: rgb(168, 164, 164);
+    border-radius: 4px;
+    border: none;
+}
+
+.edit-input
+{
+    background-color:rgb(129, 75, 111);
+    border: none;
+}
