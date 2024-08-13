@@ -1,0 +1,53 @@
+.hidden
+{
+    display: none;
+}
+.container
+{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.question{
+    padding: 15px 2px;
+    
+}
+.answer-btn
+{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: #39439e;
+    margin: 5px;
+    color: white;
+    padding: 10px 2px;
+    font-size: 0.7rem;
+}
+.new-next-btn
+{
+    display: none;
+
+}
+.result
+{
+    direction: flex;
+    flex-direction: row;
+    padding: 10px 2px;
+}
+.reset-btn, .start,.next-btn
+{
+    margin: 2px 38px;
+    background-color: rgb(48, 48, 95);
+    color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.score
+{
+    font-size: 1.5rem;
+    background-color:#39439e;
+    color: white;
+}
